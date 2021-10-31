@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppErgasia2Alpha", "WindowsFormsAppErgasia2Alpha\WindowsFormsAppErgasia2Alpha.csproj", "{2889D7BE-9290-4BA5-8588-25CE7CA68082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2889D7BE-9290-4BA5-8588-25CE7CA68082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2889D7BE-9290-4BA5-8588-25CE7CA68082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2889D7BE-9290-4BA5-8588-25CE7CA68082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2889D7BE-9290-4BA5-8588-25CE7CA68082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9001F2B-76D0-486F-B9E4-4CC7171C1E48}
+	EndGlobalSection
+EndGlobal
