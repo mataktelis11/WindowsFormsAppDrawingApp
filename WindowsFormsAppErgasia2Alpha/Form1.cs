@@ -382,8 +382,6 @@ namespace WindowsFormsAppErgasia2Alpha
             panel2.BackColor = SystemColors.ScrollBar;
             this.ForeColor = Color.Black;
             this.BackColor = SystemColors.Control;
-            button1.BackgroundImage = Image.FromFile("images/redo1.png");
-            button2.BackgroundImage = Image.FromFile("images/undo1.png");
             button1.BackColor = Color.White;
             button2.BackColor = Color.White;
             groupBox1.ForeColor = Color.Black;
@@ -398,8 +396,6 @@ namespace WindowsFormsAppErgasia2Alpha
             panel2.BackColor = Color.FromArgb(56, 59, 56);
             this.ForeColor = Color.White;
             this.BackColor = SystemColors.ControlDark;
-            button1.BackgroundImage = Image.FromFile("images/redo1.png");
-            button2.BackgroundImage = Image.FromFile("images/undo1.png");
             button1.BackColor = Color.White;
             button2.BackColor = Color.White;
             groupBox1.ForeColor = Color.White;
@@ -414,8 +410,6 @@ namespace WindowsFormsAppErgasia2Alpha
             panel2.BackColor = Color.FromArgb(66, 135, 245);
             this.ForeColor = Color.White;
             this.BackColor = Color.Orange;
-            button1.BackgroundImage = Image.FromFile("images/redo2.png");
-            button2.BackgroundImage = Image.FromFile("images/undo2.png");
             button1.BackColor = Color.White;
             button2.BackColor = Color.White;
             groupBox1.ForeColor = Color.White;
@@ -439,6 +433,8 @@ namespace WindowsFormsAppErgasia2Alpha
                 graphX1 = e.X;          //take coordinates
                 graphY1 = e.Y;
             }
+
+
         }
 
         private void pictureBox3_MouseUp(object sender, MouseEventArgs e)
@@ -757,6 +753,7 @@ namespace WindowsFormsAppErgasia2Alpha
                 and we clear with the Invalidate() mathod
 
             */
+
             pictureBox3.Invalidate();   //clear the picturebox
 
             if (mousedown)
